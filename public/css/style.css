@@ -1,0 +1,24 @@
+.paginate {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.paginate .page-link {
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    color: #333;
+    text-decoration: none;
+}
+
+.paginate .page-link:hover {
+    background-color: #333!important;
+}
+
+.paginate .page-link.active {
+    background-color: #333;
+    color: #fff;
+}
